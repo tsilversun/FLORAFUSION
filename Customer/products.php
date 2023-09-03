@@ -6,7 +6,7 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     
-    <title>Plant Products</title>
+    <title>Products</title>
 </head>
 <body>
 <nav class="bg-white border-gray-200 dark:bg-gray-900">
@@ -27,9 +27,9 @@
             </div>
             <!-- Profile Dropdown -->
             <ul id="profile-menu" class="absolute mt-3 right-0 hidden bg-white text-gray-800 shadow-md rounded-lg w-48 space-y-2 py-2">
-                <li><a href="#"><i class="mr-2 text-blue-500 fas fa-map-marker-alt"></i>Order Tracker</a></li>
-                <li><a href="#"><i class="mr-2 text-green-500 fas fa-shopping-cart"></i>Purchase History</a></li>
-                <li><a href="#"><i class="mr-2 text-purple-500 fas fa-user-edit"></i>Update Profile</a></li>
+                <li><a href="tracker.php"><i class="mr-2 text-blue-500 fas fa-map-marker-alt"></i>Order Tracker</a></li>
+                <li><a href="his_purchase.php"><i class="mr-2 text-green-500 fas fa-shopping-cart"></i>Purchase History</a></li>
+                <li><a href="upd_profile.php"><i class="mr-2 text-purple-500 fas fa-user-edit"></i>Update Profile</a></li>
                 <li><a href="#"><i class="mr-2 text-red-500 fas fa-trash-alt"></i>Delete Account</a></li>
                 <li><a href="../includes/logout.php"><i class="mr-2 text-gray-500 fas fa-sign-out-alt"></i>Logout</a></li>
             </ul>
@@ -242,5 +242,8 @@
             <!-- Add more products -->
         </div>
     </div>
+
+
+    <script src="../assets/drop_down.js"></script>
 </body>
 </html>

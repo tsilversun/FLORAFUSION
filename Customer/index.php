@@ -161,21 +161,7 @@
     </div>
   </section>
 
-  <script>
-        const profileMenuButton = document.getElementById("profile-menu-button");
-        const profileMenu = document.getElementById("profile-menu");
-
-        profileMenuButton.addEventListener("click", () => {
-            profileMenu.classList.toggle("hidden");
-        });
-
-        // Close the dropdown when clicking outside of it
-        document.addEventListener("click", (event) => {
-            if (!profileMenuButton.contains(event.target)) {
-                profileMenu.classList.add("hidden");
-            }
-        });
-    </script>
+  <script src="../assets/drop_down.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
 </body>
 </html>

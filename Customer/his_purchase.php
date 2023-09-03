@@ -144,25 +144,6 @@
         </div>
     </div>
 
-    <script>
-        function openRatingModal(productName) {
-            document.getElementById('productName').textContent = productName;
-            document.getElementById('ratingModal').classList.remove('hidden');
-        }
-
-        function closeRatingModal() {
-            document.getElementById('ratingModal').classList.add('hidden');
-        }
-
-        function submitRating() {
-            const rating = document.querySelector('input[name="rating"]:checked').value;
-            const message = document.getElementById('message').value;
-            
-            // TODO: Handle rating submission here
-            
-            closeRatingModal();
-            alert(`Rating: ${rating}, Message: ${message}`);
-        }
-    </script>
+    <script src="../assets/drop_down.js"></script>
 </body>
 </html>

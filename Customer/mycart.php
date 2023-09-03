@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <title>Plant Online Shop - Cart</title>
+    <title>Cart</title>
 </head>
 <body class="bg-gray-100">
 <nav class="bg-white border-gray-200 dark:bg-gray-900">
@@ -26,9 +26,9 @@
             </div>
             <!-- Profile Dropdown -->
             <ul id="profile-menu" class="absolute mt-3 right-0 hidden bg-white text-gray-800 shadow-md rounded-lg w-48 space-y-2 py-2">
-                <li><a href="#"><i class="mr-2 text-blue-500 fas fa-map-marker-alt"></i>Order Tracker</a></li>
-                <li><a href="#"><i class="mr-2 text-green-500 fas fa-shopping-cart"></i>Purchase History</a></li>
-                <li><a href="#"><i class="mr-2 text-purple-500 fas fa-user-edit"></i>Update Profile</a></li>
+                <li><a href="tracker.php"><i class="mr-2 text-blue-500 fas fa-map-marker-alt"></i>Order Tracker</a></li>
+                <li><a href="his_purchase.php"><i class="mr-2 text-green-500 fas fa-shopping-cart"></i>Purchase History</a></li>
+                <li><a href="upd_profile"><i class="mr-2 text-purple-500 fas fa-user-edit"></i>Update Profile</a></li>
                 <li><a href="#"><i class="mr-2 text-red-500 fas fa-trash-alt"></i>Delete Account</a></li>
                 <li><a href="../includes/logout.php"><i class="mr-2 text-gray-500 fas fa-sign-out-alt"></i>Logout</a></li>
             </ul>
@@ -64,7 +64,7 @@
                 </tr>
             </thead>
             <tbody>
-                <!-- Cart Item 1 -->
+        
                 <tr class="border-b">
                     <td class="py-2 px-4">
                         <h3 class="text-lg font-semibold mt-2">Snake Plant</h3>
@@ -89,7 +89,7 @@
                     </td>
                 </tr>
 
-                <!-- Cart Item 2 (Add more items as needed) -->
+                
                 <tr class="border-b">
                     <td class="py-2 px-4">
                         <h3 class="text-lg font-semibold mt-2">Fiddle Leaf Fig</h3>
@@ -124,5 +124,6 @@
             </button>
         </div>
     </div>
+    <script src="../assets/drop_down.js"></script>
 </body>
 </html>
