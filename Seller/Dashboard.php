@@ -12,7 +12,8 @@
     <div class=" bg-green-300 text-black p-4">
         <div class="bg-green-300 text-black h-screen w-64 flex flex-col">
     <div class="p-4">
-        <h2 class="text-2xl font-semibold">Dashboard</h2>
+        <img src="image.png" class="h-8 mr-3" alt="Plant Logo" />
+        <h2 class="text-2xl font-semibold">FloraFusion Market</h2>
     </div>
     <ul class="flex flex-col space-y-2 p-4">
         <li class="hover:bg-gray-700 p-2 rounded-md cursor-pointer">
