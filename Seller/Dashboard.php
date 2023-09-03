@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <title>Seller Dashboard</title>
 </head>
 <body>
@@ -23,7 +24,7 @@
             </a>
         </li>
         <li class="hover:bg-gray-700 p-2 rounded-md cursor-pointer">
-            <a href="../Seller/Inventory.html" class="flex items-center space-x-2">
+            <a href="../Seller/Inventory.php" class="flex items-center space-x-2">
                 <svg class="h-5 w-5 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                     <path d="M2 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2H2V2zm18 5H0v11a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1V7zM2 14h16V8H2v6z"/>
                 </svg>
@@ -31,7 +32,7 @@
             </a>
         </li>
         <li class="hover:bg-gray-700 p-2 rounded-md cursor-pointer">
-            <a href="#" class="flex items-center space-x-2">
+            <a href="../Seller/orders.php" class="flex items-center space-x-2">
                 <svg class="h-5 w-5 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                     <path d="M2 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2H2V2zm18 5H0v11a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1V7zM2 14h16V8H2v6z"/>
                 </svg>
@@ -39,7 +40,7 @@
             </a>
         </li>
         <li class="hover:bg-gray-700 p-2 rounded-md cursor-pointer">
-            <a href="#" class="flex items-center space-x-2">
+            <a href="../Seller/sales_rep.php" class="flex items-center space-x-2">
                 <svg class="h-5 w-5 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                     <path d="M2 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2H2V2zm18 5H0v11a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1V7zM2 14h16V8H2v6z"/>
                 </svg>
@@ -47,7 +48,7 @@
             </a>
         </li>
         <li class="hover:bg-gray-700 p-2 rounded-md cursor-pointer">
-            <a href="#" class="flex items-center space-x-2">
+            <a href="../Seller/sold_his.php" class="flex items-center space-x-2">
                 <svg class="h-5 w-5 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                     <path d="M2 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2H2V2zm18 5H0v11a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1V7zM2 14h16V8H2v6z"/>
                 </svg>
@@ -56,9 +57,7 @@
         </li>
         <li class="hover:bg-gray-700 p-2 rounded-md cursor-pointer">
             <a href="../includes/logout.php" class="flex items-center space-x-2">
-                <svg class="h-5 w-5 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                    <path d="fas fa-sign-out-alt"/>
-                </svg>
+            <i class="mr-2 text-black-500 fas fa-sign-out-alt"></i>
                 <span>Log out</span>
             </a>
         </li>
