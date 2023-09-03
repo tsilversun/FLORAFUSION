@@ -32,7 +32,7 @@
             <button type="submit" class="w-full bg-green-500 text-white p-2 rounded hover:bg-green-600">Sign Up</button>
         </form>
         <div class="mt-4 text-sm text-gray-600">
-            Already have an account? <a href="login.html" id="login" class="text-blue-500 hover:underline">Login</a>
+            Already have an account? <a href="login.php" id="login" class="text-blue-500 hover:underline">Login</a>
         </div>
     </div>
 </body>

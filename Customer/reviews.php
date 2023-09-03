@@ -16,7 +16,7 @@
             </div>
             <div class="flex items-center md:order-2">
                 <ul class="flex space-x-4">
-                    <li><a href="#" class="text-gray"><i class="fas fa-heart"></i></a></li>
+                    <li><a href="wishlist.php" class="text-gray"><i class="fas fa-heart"></i></a></li>
                     <li><a href="mycart.php" class="text-gray"><i class="fas fa-shopping-cart"></i></a></li>
                     <!-- Profile Dropdown Trigger -->
                     <li>

@@ -18,7 +18,7 @@
             </div>
             <div class="flex items-center md:order-2">
                 <ul class="flex space-x-4">
-                    <li><a href="#" class="text-gray"><i class="fas fa-heart"></i></a></li>
+                    <li><a href="wishlist.php" class="text-gray"><i class="fas fa-heart"></i></a></li>
                     <li><a href="mycart.php" class="text-gray"><i class="fas fa-shopping-cart"></i></a></li>
                     <!-- Profile Dropdown Trigger -->
                     <li>
@@ -96,14 +96,10 @@
                    
                     <div class="mt-4 flex space-x-2">
                         <button class="bg-blue-500 text-white py-2 px-4 rounded-full hover:bg-blue-600">
-                            <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
-                                <path d="M9 2c-1.67 0-3 1.33-3 3 0 1.17.69 2.17 1.69 2.69L15 12v2H6c-1.1 0-2 .9-2 2v3c0 .55.45 1 1 1h14c.55 0 1-.45 1-1v-3c0-1.1-.9-2-2-2h-9v-2l8.31-4.19c.21-.11.42-.26.59-.43.37-.37.59-.87.59-1.41 0-1.1-.9-2-2-2H9zm0 2h6c.55 0 1 .45 1 1 0 .28-.11.52-.29.71L9 9.46V4zm8 13H7v2h10v-2zm0-5H7v2h10v-2zm-6-3h2v2h-2V9z"/>
-                            </svg>
+                        <i class="fas fa-shopping-cart"></i>
                         </button>
                         <button class="text-gray-500 hover:text-red-500">
-                            <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
-                                <path d="M12 21.35L9.39 18.73C4.95 14.29 2 11.4 2 8.5 2 6.5 3.5 5 5.5 5c1.63 0 3.18 1.07 4.5 2.55C12.32 6.07 13.87 5 15.5 5 17.5 5 19 6.5 19 8.5c0 2.9-2.95 5.79-7.39 10.23L12 21.35z"/>
-                            </svg>
+                        <i class="fas fa-heart"></i>
                         </button>
                     </div>
                 </div>
@@ -120,7 +116,14 @@
                         <span class="text-blue-500 font-semibold">199</span>
                         <span class="text-gray-500 ml-2 line-through">199</span>
                     </div>
-                   <div class="mt-4 flex space-x-2"> <button class="bg-blue-500 text-white py-2 px-4 rounded-full hover:bg-blue-600"> <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"> <path d="M9 2c-1.67 0-3 1.33-3 3 0 1.17.69 2.17 1.69 2.69L15 12v2H6c-1.1 0-2 .9-2 2v3c0 .55.45 1 1 1h14c.55 0 1-.45 1-1v-3c0-1.1-.9-2-2-2h-9v-2l8.31-4.19c.21-.11.42-.26.59-.43.37-.37.59-.87.59-1.41 0-1.1-.9-2-2-2H9zm0 2h6c.55 0 1 .45 1 1 0 .28-.11.52-.29.71L9 9.46V4zm8 13H7v2h10v-2zm0-5H7v2h10v-2zm-6-3h2v2h-2V9z"/> </svg> </button> <button class="text-gray-500 hover:text-red-500"> <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"> <path d="M12 21.35L9.39 18.73C4.95 14.29 2 11.4 2 8.5 2 6.5 3.5 5 5.5 5c1.63 0 3.18 1.07 4.5 2.55C12.32 6.07 13.87 5 15.5 5 17.5 5 19 6.5 19 8.5c0 2.9-2.95 5.79-7.39 10.23L12 21.35z"/> </svg> </button> </div>
+                    <div class="mt-4 flex space-x-2">
+                        <button class="bg-blue-500 text-white py-2 px-4 rounded-full hover:bg-blue-600">
+                        <i class="fas fa-shopping-cart"></i>
+                        </button>
+                        <button class="text-gray-500 hover:text-red-500">
+                        <i class="fas fa-heart"></i>
+                        </button>
+                    </div>
                 </div>
             </div>
             <!-- product 3-->
@@ -135,7 +138,14 @@
                         <span class="text-blue-500 font-semibold">199</span>
                         <span class="text-gray-500 ml-2 line-through">199</span>
                     </div>
-                    <div class="mt-4 flex space-x-2"> <button class="bg-blue-500 text-white py-2 px-4 rounded-full hover:bg-blue-600"> <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"> <path d="M9 2c-1.67 0-3 1.33-3 3 0 1.17.69 2.17 1.69 2.69L15 12v2H6c-1.1 0-2 .9-2 2v3c0 .55.45 1 1 1h14c.55 0 1-.45 1-1v-3c0-1.1-.9-2-2-2h-9v-2l8.31-4.19c.21-.11.42-.26.59-.43.37-.37.59-.87.59-1.41 0-1.1-.9-2-2-2H9zm0 2h6c.55 0 1 .45 1 1 0 .28-.11.52-.29.71L9 9.46V4zm8 13H7v2h10v-2zm0-5H7v2h10v-2zm-6-3h2v2h-2V9z"/> </svg> </button> <button class="text-gray-500 hover:text-red-500"> <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"> <path d="M12 21.35L9.39 18.73C4.95 14.29 2 11.4 2 8.5 2 6.5 3.5 5 5.5 5c1.63 0 3.18 1.07 4.5 2.55C12.32 6.07 13.87 5 15.5 5 17.5 5 19 6.5 19 8.5c0 2.9-2.95 5.79-7.39 10.23L12 21.35z"/> </svg> </button> </div>
+                    <div class="mt-4 flex space-x-2">
+                        <button class="bg-blue-500 text-white py-2 px-4 rounded-full hover:bg-blue-600">
+                        <i class="fas fa-shopping-cart"></i>
+                        </button>
+                        <button class="text-gray-500 hover:text-red-500">
+                        <i class="fas fa-heart"></i>
+                        </button>
+                    </div>
                 </div>
             </div>
     </div>
