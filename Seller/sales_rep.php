@@ -1,18 +1,3 @@
-<?php 
-    // session_start();  
-    // if(!isset($_SESSION['id'])){
-    //     header('location: ./index.php');
-    // }
-    // $role = $_SESSION['role'];
-    // if($role == 1){
-    //     header('location: /FloraFusion/customer/index.php');
-    // }else if($role == 2){
-    //     header('location: /FloraFusion/seller/index.php');
-    // }else if($role == 0){
-    //   header('location: /FloraFusion/admin/index.php');
-    // }
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-    <title>Seller Dashboard</title>
+    <title>sales Report</title>
 </head>
 <body>
     <div class="flex p-8 space-x-8">
     <div class=" bg-green-300 text-black p-4">
         <div class="bg-green-300 text-black h-screen w-64 flex flex-col">
     <div class="p-4">
-        <img src="image.png" class="h-8 mr-3" alt="Plant Logo" />
+    <img src="image.png" class="h-8 mr-3" alt="Plant Logo" />
         <h2 class="text-2xl font-semibold">FloraFusion Market</h2>
     </div>
     <ul class="flex flex-col space-y-2 p-4">
@@ -73,32 +58,49 @@
         </li>
         <li class="hover:bg-gray-700 p-2 rounded-md cursor-pointer">
             <a href="../includes/logout.php" class="flex items-center space-x-2">
-            <i class="mr-2 text-red-500 fas fa-sign-out-alt"></i>
+            <i class="mr-2 text-black-500 fas fa-sign-out-alt"></i>
                 <span>Log out</span>
             </a>
         </li>
         
     </ul>
 </div>
-       
-    </div>
-    <div class="flex-1 bg-white p-4 shadow-md">
-        <div class="flex justify-between items-center mb-4 py-2 ">
-            <div class="bg-green-500 p-4 rounded-md text-black">
-                <h3 class="text-xl font-semibold">Number of Plants</h3>
-                <p class="text-4xl">150</p>
-            </div>
-            <div class="bg-blue-500 p-4 rounded-md text-black">
-                <h3 class="text-xl font-semibold">Number of Orders</h3>
-                <p class="text-4xl">150</p>
-            </div>
+</div>
+<div>
+<div class="flex-1 bg-white p-4 shadow-md">
+    <h2 class="text-xl font-semibold mb-4">Sales Report of the Month of</h2>
+
+    <!-- Search bar -->
+    <div class="flex justify-between items-center mb-4">
+        <div class="relative ml-auto">
+        <button class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-md">+</button>
+            <input type="text" class="border border-gray-300 rounded-md px-3 py-2 pr-10 placeholder-gray-400 focus:outline-none focus:ring focus:border-blue-500" placeholder="Search">
         </div>
     </div>
+    
+    <!-- Sales report table -->
+    <table class="min-w-full divide-y divide-gray-800 border border-gray-800 ">
+        <thead class="bg-gray-50">
+            <tr>
+                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Month</th>
+                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Year</th>
+                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Actions</th>
+            </tr>
+        </thead>
+        <tbody class="bg-white divide-y divide-gray-200">
+            <tr>
+                <td class="px-6 py-4 whitespace-nowrap">January</td>
+                <td class="px-6 py-4 whitespace-nowrap">2023</td>
+                <td class="px-6 py-4 whitespace-nowrap">
+                    <button class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-md">Update</button>
+                    <button class="bg-red-500 hover:bg-red-600 text-white py-2 px-4 rounded-md ml-2">Delete</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
 </div>
 
-
-
-
+</div>
 
 
 

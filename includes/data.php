@@ -12,7 +12,7 @@ class data{
     }
 
     private function registerData(){
-        return "INSERT INTO `user_table` (`name`,`email`,`password`,`role`,`status`) VALUES (?,?,?,?, 1)";
+        return "INSERT INTO `user_table` (`name`,`email`,`password`,`role`,`status`,`image`) VALUES (?,?,?,?, 1,?,)";
     }
 }
 ?>
