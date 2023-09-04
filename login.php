@@ -21,7 +21,7 @@
             <button type="submit" class="w-full bg-blue-500 text-white p-2 rounded hover:bg-blue-600">Login</button>
         </form>
         <div class="mt-4 text-sm text-gray-600">
-            Don't have an account? <a href="register.html" id="create-account-link" class="text-blue-500 hover:underline">Create one</a>.
+            Don't have an account? <a href="register.php" id="create-account-link" class="text-blue-500 hover:underline">Create one</a>.
         </div>
     </div>
 </body>

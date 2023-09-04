@@ -1,3 +1,18 @@
+<?php 
+    // session_start();  
+    // if(!isset($_SESSION['id'])){
+    //     header('location: ./index.php');
+    // }
+    // $role = $_SESSION['role'];
+    // if($role == 1){
+    //     header('location: /FloraFusion/customer/index.php');
+    // }else if($role == 2){
+    //     header('location: /FloraFusion/seller/index.php');
+    // }else if($role == 0){
+    //   header('location: /FloraFusion/admin/index.php');
+    // }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

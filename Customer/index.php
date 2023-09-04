@@ -1,3 +1,18 @@
+<?php 
+    // <!-- session_start();  
+    // if(!isset($_SESSION['id'])){
+    //     header('location: ./index.php');
+    // }
+    // $role = $_SESSION['role'];
+    // if($role == 1){
+    //     header('location: /FloraFusion/customer/index.php');
+    // }else if($role == 2){
+    //     header('location: /FloraFusion/seller/index.php');
+    // }else if($role == 0){
+    //   header('location: /FloraFusion/admin/index.php');
+    // } -->
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,8 +27,8 @@
     
 <nav class="bg-white border-gray-200 dark:bg-gray-900">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-  <a href="https://flowbite.com/" class="flex items-center">
-      <img src="image.png" class="h-8 mr-3" alt="Plant Logo" />
+  <a href="../Customer/index.html" class="flex items-center">
+      <img src="/img/plant.jpeg" class="h-8 mr-3" alt="Plant Logo" />
       <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">FloraFusion Market</span>
   </a>
   <div class="flex items-center md:order-2">
@@ -71,7 +86,7 @@
             <!-- Product 1 -->
             <div class="bg-white rounded shadow-md overflow-hidden">
                 <div class="aspect-w-3 aspect-h-4">
-                    <img src="plant1.jpg" alt="Plant Product" class="object-cover w-full h-full">
+                    <img src="../img/plant.jpeg" alt="Plant Product" class="object-cover w-full h-full">
                 </div>
                 <div class="p-4">
                     <h3 class="text-lg font-semibold mb-2">Snake Plant</h3>
@@ -98,7 +113,7 @@
             <!-- product 2-->
             <div class="bg-white rounded shadow-md overflow-hidden">
                 <div class="aspect-w-3 aspect-h-4">
-                    <img src="plant1.jpg" alt="Plant Product" class="object-cover w-full h-full">
+                    <img src="../img/plant.jpeg" alt="Plant Product" class="object-cover w-full h-full">
                 </div>
                 <div class="p-4">
                     <h3 class="text-lg font-semibold mb-2">Snake Plant</h3>
