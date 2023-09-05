@@ -19,19 +19,24 @@
                     <li><a href="wishlist.php" class="text-gray"><i class="fas fa-heart"></i></a></li>
                     <li><a href="mycart.php" class="text-gray"><i class="fas fa-shopping-cart"></i></a></li>
                     <!-- Profile Dropdown Trigger -->
-                    <li>
-                        <button id="profile-menu-button"><img src="/img/defaultProfilePicture.jpg/<?php echo $_SESSION['image']; ?>" alt="default" width="36" height="36" class="rounded-circle"></i></button>
-                    </li>
+                    <li>  
+                    <button id="profile-menu-button" class=" w-6 h-6 bg-gray-800 rounded-full flex items-center justify-center">
+                      <i class="fas fa-user text-white text-1xl"></i>
+                        <!-- <img src="/img/defaultProfilePicture.jpg/
+                        <?php echo $_SESSION['image']; ?>" alt="default" width="36" height="36" 
+                        class=" w-20 h-20 bg-blue-500 rounded-full flex items-center justify-center"> -->
+                    </button>
+                </li>
                 </ul>
             </div>
             <!-- Profile Dropdown -->
-            <ul id="profile-menu" class="absolute mt-3 right-0 hidden bg-white text-gray-800 shadow-md rounded-lg w-48 space-y-2 py-2">
-                <li><a href="tracker.php"><i class="mr-2 text-blue-500 fas fa-map-marker-alt"></i>Order Tracker</a></li>
-                <li><a href="his_purchase.php"><i class="mr-2 text-green-500 fas fa-shopping-cart"></i>Purchase History</a></li>
-                <li><a href="upd_profile"><i class="mr-2 text-purple-500 fas fa-user-edit"></i>Update Profile</a></li>
-                <li><a href="#"><i class="mr-2 text-red-500 fas fa-trash-alt"></i>Delete Account</a></li>
-                <li><a href="../includes/logout.php"><i class="mr-2 text-gray-500 fas fa-sign-out-alt"></i>Logout</a></li>
-            </ul>
+            <ul id="profile-menu" class="absolute mt-3 top-5 right-0 hidden bg-white text-gray-800 shadow-md rounded-lg w-48 space-y-2 py-2">
+            <li><a href="tracker.php"><i class="ml-3 text-blue-500 fas fa-map-marker-alt"></i>Order Tracker</a></li>
+            <li><a href="his_purchase.php"><i class="ml-3 text-green-500 fas fa-shopping-cart"></i>Purchase History</a></li>
+            <li><a href="upd_profile.php"><i class="ml-3 text-purple-500 fas fa-user-edit"></i>Update Profile</a></li>
+            <li><a href="#"><i class="ml-3 text-red-500 fas fa-trash-alt"></i>Delete Account</a></li>
+            <li><a href="../includes/logout.php"><i class="ml-3 text-gray-500 fas fa-sign-out-alt"></i>Logout</a></li>
+        </ul>
             <!-- End Profile Dropdown -->
             <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="mobile-menu-2">
                 <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">

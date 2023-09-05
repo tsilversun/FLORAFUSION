@@ -70,7 +70,12 @@
     
     <div class="flex-1 bg-white p-4 shadow-md">
     <h2 class="text-xl font-semibold mb-4">Category</h2>
-    
+    <div class="flex justify-between items-center mb-4">
+        <div class="relative ml-auto">
+        <button class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-md">+</button>
+            <input type="text" class="border border-gray-300 rounded-md px-3 py-2 pr-10 placeholder-gray-400 focus:outline-none focus:ring focus:border-blue-500" placeholder="Search">
+        </div>
+    </div>
     <table class="min-w-full divide-y divide-gray-200">
         <thead class="bg-gray-50">
             <tr>
