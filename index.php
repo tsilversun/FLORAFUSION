@@ -14,7 +14,7 @@
 <nav class="bg-white border-gray-200 dark:bg-gray-900">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
   <a href="/index.php" class="flex items-center">
-      <img src="img/plant.jpeg" class="h-8 mr-3" alt="Plant Logo" />
+      <img src="../FloraFusion/assets/img/FloraFusion.jpg" class="h-8 mr-3" alt="Plant Logo" />
       <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">FloraFusion Market</span>
   </a>
   <div class="flex items-center md:order-2">
@@ -56,7 +56,7 @@
     </div>
     </div>
     <div class="md:text-right mb-10 ml-6">
-      <img src="img/plant.jpeg" alt="plant" class="rounded-lg h-64 mt-10 mb-10 ml-6">
+      <img src="../FloraFusion/assets/img/plant.jpeg" alt="plant" class="rounded-lg h-64 mt-10 mb-10 ml-6">
     </div>
   </div>
   </section>
@@ -69,7 +69,7 @@
             <!-- Product 1 -->
             <div class="bg-white rounded shadow-md overflow-hidden">
                 <div class="aspect-w-3 aspect-h-4">
-                    <img src="img/plant.jpeg" alt="Plant Product" class="object-cover w-full h-full">
+                    <img src="../FloraFusion/assets/img/plant.jpeg" alt="Plant Product" class="object-cover w-full h-full">
                 </div>
                 <div class="p-4">
                     <h3 class="text-lg font-semibold mb-2">Snake Plant</h3>
@@ -92,7 +92,7 @@
             <!-- product 2-->
             <div class="bg-white rounded shadow-md overflow-hidden">
                 <div class="aspect-w-3 aspect-h-4">
-                    <img src="img/plant.jpeg" alt="Plant Product" class="object-cover w-full h-full">
+                    <img src="../FloraFusion/assets/img/plant.jpeg" alt="Plant Product" class="object-cover w-full h-full">
                 </div>
                 <div class="p-4">
                     <h3 class="text-lg font-semibold mb-2">Snake Plant</h3>
@@ -114,7 +114,7 @@
             <!-- product 3-->
             <div class="bg-white rounded shadow-md overflow-hidden">
                 <div class="aspect-w-3 aspect-h-4">
-                    <img src="img/plant.jpeg" alt="Plant Product" class="object-cover w-full h-full">
+                    <img src="../FloraFusion/assets/img/plant.jpeg" alt="Plant Product" class="object-cover w-full h-full">
                 </div>
                 <div class="p-4">
                     <h3 class="text-lg font-semibold mb-2">Snake Plant</h3>

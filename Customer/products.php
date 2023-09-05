@@ -7,8 +7,8 @@
             header('location: /FloraFusion/Customer/index.php');
         }else if($role == 2){
             header('location: /FloraFusion/seller/index.php');
-        }else if($role == 0){
-          header('location: /FloraFusion/admin/index.php');
+        }else{
+            echo "You Need To logged in!";
         }
     }
 ?>
@@ -27,7 +27,7 @@
 <nav class="bg-white border-gray-200 dark:bg-gray-900">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <div class="flex items-center">
-                <img src="../img/plant.jpeg" class="h-8 mr-3" alt="Plant Logo" />
+                <img src="../assets/img/FloraFusion.jpg" class="h-8 mr-3" alt="Plant Logo" />
                 <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">FloraFusion Market</span>
 </div>
             <div class="flex items-center md:order-2">
@@ -75,7 +75,7 @@
             <!-- Product 1 -->
             <div class="bg-white rounded shadow-md overflow-hidden">
                 <div class="aspect-w-3 aspect-h-4">
-                    <img src="../img/plant.jpeg" alt="Plant Product" class="object-cover w-full h-full">
+                    <img src="../assets/img/plant.jpeg" alt="Plant Product" class="object-cover w-full h-full">
                 </div>
                 <div class="p-4">
                     <h3 class="text-lg font-semibold mb-2">Snake Plant</h3>
@@ -98,7 +98,7 @@
             <!-- product 2-->
             <div class="bg-white rounded shadow-md overflow-hidden">
                 <div class="aspect-w-3 aspect-h-4">
-                    <img src="../img/plant.jpeg" alt="Plant Product" class="object-cover w-full h-full">
+                    <img src="../assets/img/plant.jpeg" alt="Plant Product" class="object-cover w-full h-full">
                 </div>
                 <div class="p-4">
                     <h3 class="text-lg font-semibold mb-2">Snake Plant</h3>
@@ -121,7 +121,7 @@
             <!-- product 3-->
             <div class="bg-white rounded shadow-md overflow-hidden">
                 <div class="aspect-w-3 aspect-h-4">
-                    <img src="../img/plant.jpeg" alt="Plant Product" class="object-cover w-full h-full">
+                    <img src="../assets/img/plant.jpeg" alt="Plant Product" class="object-cover w-full h-full">
                 </div>
                 <div class="p-4">
                     <h3 class="text-lg font-semibold mb-2">Snake Plant</h3>
@@ -144,7 +144,7 @@
 
             <div class="bg-white rounded shadow-md overflow-hidden">
                 <div class="aspect-w-3 aspect-h-4">
-                    <img src="../img/plant.jpeg" alt="Plant Product" class="object-cover w-full h-full">
+                    <img src="../assets/img/plant.jpeg" alt="Plant Product" class="object-cover w-full h-full">
                 </div>
                 <div class="p-4">
                     <h3 class="text-lg font-semibold mb-2">Snake Plant</h3>
@@ -167,7 +167,7 @@
 
             <div class="bg-white rounded shadow-md overflow-hidden">
                 <div class="aspect-w-3 aspect-h-4">
-                    <img src="../img/plant.jpeg" alt="Plant Product" class="object-cover w-full h-full">
+                    <img src="../assets/img/plant.jpeg" alt="Plant Product" class="object-cover w-full h-full">
                 </div>
                 <div class="p-4">
                     <h3 class="text-lg font-semibold mb-2">Snake Plant</h3>
@@ -190,7 +190,7 @@
 
             <div class="bg-white rounded shadow-md overflow-hidden">
                 <div class="aspect-w-3 aspect-h-4">
-                    <img src="../img/plant.jpeg" alt="Plant Product" class="object-cover w-full h-full">
+                    <img src="../assets/img/plant.jpeg" alt="Plant Product" class="object-cover w-full h-full">
                 </div>
                 <div class="p-4">
                     <h3 class="text-lg font-semibold mb-2">Snake Plant</h3>
@@ -213,7 +213,7 @@
 
             <div class="bg-white rounded shadow-md overflow-hidden">
                 <div class="aspect-w-3 aspect-h-4">
-                    <img src="../img/plant.jpeg" alt="Plant Product" class="object-cover w-full h-full">
+                    <img src="../assets/img/plant.jpeg" alt="Plant Product" class="object-cover w-full h-full">
                 </div>
                 <div class="p-4">
                     <h3 class="text-lg font-semibold mb-2">Snake Plant</h3>
@@ -236,7 +236,7 @@
 
             <div class="bg-white rounded shadow-md overflow-hidden">
                 <div class="aspect-w-3 aspect-h-4">
-                    <img src="../img/plant.jpeg" alt="Plant Product" class="object-cover w-full h-full">
+                    <img src="../assets/img/plant.jpeg" alt="Plant Product" class="object-cover w-full h-full">
                 </div>
                 <div class="p-4">
                     <h3 class="text-lg font-semibold mb-2">Snake Plant</h3>

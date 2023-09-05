@@ -1,3 +1,18 @@
+<?php 
+     session_start();  
+    if(!isset($_SESSION['id'])){
+        header('location: ./index.php');
+        $role = $_SESSION['role'];
+        if($role == 1){
+            header('location: /FloraFusion/Customer/index.php');
+        }else if($role == 2){
+            header('location: /FloraFusion/seller/index.php');
+        }else{
+            echo "You Need To logged in!";
+        }
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +27,7 @@
     <div class=" bg-green-300 text-black p-4">
         <div class="bg-green-300 text-black h-screen w-64 flex flex-col">
     <div class="p-4">
-    <img src="image.png" class="h-8 mr-3" alt="Plant Logo" />
+    <img src="../assets/img/FloraFusion.jpg" class="h-8 mr-3" alt="Plant Logo" />
         <h2 class="text-2xl font-semibold">FloraFusion Market</h2>
     </div>
     <ul class="flex flex-col space-y-2 p-4">
