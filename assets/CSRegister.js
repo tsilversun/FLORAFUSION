@@ -31,7 +31,8 @@ createApp ({
                     alert('Already Registered');
                 }
                 else{
-                    alert("Please Try Again");
+                    // alert("Please Try Again");
+                    alert(r.data);
                 }
             });
         },
