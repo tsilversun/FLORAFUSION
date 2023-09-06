@@ -73,7 +73,7 @@
         </li>
         <li class="hover:bg-gray-700 p-2 rounded-md cursor-pointer">
             <a href="../includes/logout.php" class="flex items-center space-x-2">
-            <i class="mr-2 text-black-500 fas fa-sign-out-alt"></i>
+            <i class="mr-2 text-red-500 fas fa-sign-out-alt"></i>
                 <span>Log out</span>
             </a>
         </li>

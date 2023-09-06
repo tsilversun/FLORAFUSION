@@ -13,7 +13,7 @@
     
 <nav class="bg-white border-gray-200 dark:bg-gray-900">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-  <a href="/index.php" class="flex items-center">
+  <a href="./index.php" class="flex items-center">
       <img src="../FloraFusion/assets/img/FloraFusion.jpg" class="h-8 mr-3" alt="Plant Logo" />
       <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">FloraFusion Market</span>
   </a>
