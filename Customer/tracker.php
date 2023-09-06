@@ -20,7 +20,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-    <title>Reviews</title>
+    <title>Tracker</title>
+    <style>
+        .step-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
 <nav class="bg-white border-gray-200 dark:bg-gray-900">
@@ -35,12 +43,12 @@
                     <li><a href="mycart.php" class="text-gray"><i class="fas fa-shopping-cart"></i></a></li>
                     <!-- Profile Dropdown Trigger -->
                     <li>
-                    <button id="profile-menu-button"><img src="/florafusion/assets/img/defaultProfilePicture.jpg" alt="default" width="36" height="36" class="rounded-full"></i></button>
+                        <button id="profile-menu-button"><img src="/img/defaultProfilePicture.jpg/<?php echo $_SESSION['image']; ?>" alt="default" width="36" height="36" class="rounded-circle"></i></button>
                     </li>
                 </ul>
             </div>
             <!-- Profile Dropdown -->
-            <ul id="profile-menu" class="absolute mt-3 top-5 right-0 hidden bg-white text-gray-800 shadow-md rounded-lg w-48 space-y-2 py-2">
+            <ul id="profile-menu" class="absolute mt-3 right-0 hidden bg-white text-gray-800 shadow-md rounded-lg w-48 space-y-2 py-2">
                 <li><a href="tracker.php"><i class="mr-2 text-blue-500 fas fa-map-marker-alt"></i>Order Tracker</a></li>
                 <li><a href="his_purchase.php"><i class="mr-2 text-green-500 fas fa-shopping-cart"></i>Purchase History</a></li>
                 <li><a href="upd_profile.php"><i class="mr-2 text-purple-500 fas fa-user-edit"></i>Update Profile</a></li>
@@ -64,7 +72,28 @@
         </div>
     </nav>
 
-   
+    <div class="max-w-5xl mx-auto mt-8 text-center p-4 bg-white rounded shadow">
+        <h2 class="text-2xl font-semibold mb-4">Order Tracker</h2>
+
+        <div class="flex space-x-4 items-center step-container">
+            <div class="flex flex-col items-center">
+                <i class="fas fa-shopping-cart text-blue-500 text-2xl"></i>
+                <p class="text-sm text-gray-600 mt-2">Order Placed</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <i class="fas fa-sync text-blue-500 text-2xl"></i>
+                <p class="text-sm text-gray-600 mt-2">Processing</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <i class="fas fa-truck text-blue-500 text-2xl"></i>
+                <p class="text-sm text-gray-600 mt-2">Shipped</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <i class="fas fa-check-circle text-green-500 text-2xl"></i>
+                <p class="text-sm text-gray-600 mt-2">Delivered</p>
+            </div>
+        </div>
+    </div>
     
 
     <script src="../assets/drop_down.js"></script>
